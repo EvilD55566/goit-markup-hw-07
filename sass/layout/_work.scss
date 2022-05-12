@@ -1,0 +1,49 @@
+.work {
+    padding-top: 0;
+}
+
+.work-list {
+    display: flex;
+    margin-left: calc(-1 * var(--primary-margin));
+    flex-wrap: wrap;
+}
+
+.work-item {
+    position: relative;
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: var(--primary-margin);
+}
+
+.work-thumb {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 370px;
+    min-height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.work-item-title {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+
+.work-title,
+.team-title,
+.clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+    margin-bottom: 50px;
+}
